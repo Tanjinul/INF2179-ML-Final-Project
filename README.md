@@ -57,9 +57,9 @@ Features include transaction amount, timestamp, merchant category, cardholder de
 ### 4. Baseline Models
 | Model | Precision | Recall | F1 |
 |---|---|---|---|
-| Logistic Regression | — | — | — |
-| Decision Tree | — | — | — |
-| Random Forest | — | — | — |
+| Logistic Regression | 0.06 | 0.74 | 0.11 |
+| Decision Tree | 0.26 | 0.81 | 0.39 |
+| Random Forest | 0.60 | 0.82 | 0.69 |
 
 > Fill in your actual scores from the classification reports
 
