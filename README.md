@@ -26,17 +26,6 @@ Features include transaction amount, timestamp, merchant category, cardholder de
 
 ---
 
-## Project Structure
-
-```
-├── train.csv
-├── test.csv
-├── fraud_detection.ipynb      # Main notebook
-└── README.md
-```
-
----
-
 ## Pipeline
 
 ### 1. Feature Engineering
@@ -60,8 +49,6 @@ Features include transaction amount, timestamp, merchant category, cardholder de
 | Logistic Regression | 0.06 | 0.74 | 0.11 |
 | Decision Tree | 0.26 | 0.81 | 0.39 |
 | Random Forest | 0.60 | 0.82 | 0.69 |
-
-> Fill in your actual scores from the classification reports
 
 ### 5. Hyperparameter Tuning
 - Used `RandomizedSearchCV` with 3-fold stratified CV on 30% of resampled training data (for compute efficiency)
@@ -99,7 +86,7 @@ Features include transaction amount, timestamp, merchant category, cardholder de
 
 ```bash
 # Install dependencies
-pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn plotly kaleido
+pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn plotly
 
 # Launch notebook
 jupyter notebook fraud_detection.ipynb
